@@ -243,14 +243,14 @@ hr {
   position: absolute;
   text-align: center;
   margin: auto;
-  border-radius: 10px;
+
 }
 
 #stage a img {
   padding: 10px;
   border: 1px solid #ccc;
   background: #fff;
-  border-radius: 10px;
+
 }
 
 #stage a::after {
@@ -358,6 +358,14 @@ hr {
   }
   #stage a::after {
     left:100px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1025px) {
+  #stage a img {
+    max-width: 60%;
+    height: auto;
+    margin-left: 190px;
   }
 }
 
