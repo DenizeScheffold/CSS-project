@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico?v=2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <title>Kollektivet - Welcome</title>
+  </head>
+
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href=""></a>
+
+      <a href="#home" class="active">Home</a>
+
+      <a href="#news">About</a>
+
+      <a href="#contact">Portfolio</a>
+
+      <a href="#about">Contact</a>
+
+      <a
+        href="javascript:void(0);"
+        style="font-size: 15px"
+        class="icon"
+        onclick="myFunction()"
+        >&#9776;</a
+      >
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+   
+
+    <div class="start-container-welcome">
+ 
+      <h1 class="start-heading">Welcome to us!</h1>
+      <br />
+      <p>
+        A <strong class="start-heading"> IT collective</strong> with a holistic mind to take your business to the next level.
+      </p>
+      <p>
+        Vi vill att du ska känna dig trygg med ditt val att anlita Kollektivet.
+      </p>
+    </div>
+
+    
+
+    <div class="start-container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="start-container-img">
+            <img class="start-img-btn" src="mountains-btn.jpg" alt="bild" />
+            <a href=""></a>
+            <div class="start-text-in-img"><strong>Portfolio</strong></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="start-container-img">
+            <img class="start-img-btn" src="mountains-btn.jpg" alt="portfolie-img" />
+            <a href=""></a>
+            <div class="start-text-in-img"><strong>Meet us</strong></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="start-container-img">
+            <img class="start-img-btn" src="mountains-btn.jpg" alt="contact us" />
+            <a href=""></a>
+            <div class="start-text-in-img"><strong>Contact</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ 
+
+    <div class="start-bottom-container">
+      <hr />
+      <div id="start-contact-me">
+        <a class="a" href="kontakt.html">Contact us</a> <br />
+        <p>Copyright © 2021 Kollektivet</p>
+      </div>
+    </div>
+  </body>
+</html>
