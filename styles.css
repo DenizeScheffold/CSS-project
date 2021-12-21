@@ -30,20 +30,25 @@ body {
 
 
 .welcome-container-img {
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
+ 
   display: inline-block;
   margin-top: 100px;
   position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 10px;
 }
 
 
 .welcome-img-btn {
   border-radius: 10px;
   height: 170px;
-  margin: 50px;
+  margin: 1px;
   opacity: 0.9;
   width: 170px;
+
+
 }
 
 .welcome-img-btn:hover {
