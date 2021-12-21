@@ -6,7 +6,7 @@
     <link rel="icon" href="favicon.ico?v=2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,76 +14,93 @@
       crossorigin="anonymous"
     />
 
-    <title>Kollektivet - Startsida</title>
+    <title>Kollektivet - Meet us</title>
   </head>
 
-  <!---------------------------------------->
 
-  <body>
-    <div class="dropdown">
-      <button class="dropbtn">Menu</button>
 
-      <div class="dropdown-content">
-        <a href="main.html">Main</a>
-
-        <a class="active" href="about.html">About</a>
-
-        <a href="#">Portfolio</a>
-
-        <a href="contact.html">Contact</a>
+    <body>
+      <div class="topnav" id="myTopnav">
+        <a href=""></a>
+  
+        <a href="#home">Home</a>
+  
+        <a href="#news">About</a>
+  
+        <a href="#contact">Portfolio</a>
+  
+        <a href="#about" class="active">Contact</a>
+  
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
       </div>
-    </div>
+  
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+  
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+  
 
-    <!---------------------------------------->
-
-    <div class="container-welcome">
-      <!-- <div class="welcome"></div> -->
-      <h1 class="heading">Träffa oss på Kollektivet</h1>
+    <div class="start-container-welcome">
+      <h1 class="start-heading">Meet the people at Kollektivet</h1>
       <br />
     </div>
 
-    <!------------------------------------->
-    <div class="container">
+ 
+    <div class="start-container">
       <div class="row">
         <div class="col-lg-3 col-sm-6">
-          <div class="container-img">
-            <img class="img-btn" src="mountains-btn.jpg" alt="om mig1" />
-            <div class="text-in-img"><strong>Marion</strong></div>
+          <div class="start-container-img">
+            <img class="start-img-btn" src="mountains-btn.jpg" alt="om mig1" />
+            <div class="start-text-in-img"><strong>Marion</strong></div>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6">
-          <div class="container-img">
-            <img class="img-btn" src="mountains-btn.jpg" alt="om mig2" />
-            <div class="text-in-img"><strong>Jonathan</strong></div>
+          <div class="start-container-img">
+            <img class="start-img-btn" src="mountains-btn.jpg" alt="om mig2" />
+            <div class="start-text-in-img"><strong>Jonathan</strong></div>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6">
-          <div class="container-img">
-            <img class="img-btn" src="mountains-btn.jpg" alt="om mig 3" />
-            <div class="text-in-img"><strong>Denise C</strong></div>
+          <div class="start-container-img">
+            <img class="start-img-btn" src="mountains-btn.jpg" alt="om mig 3" />
+            <div class="start-text-in-img"><strong>Denise C</strong></div>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6">
-          <div class="container-img">
-            <img class="img-btn" src="mountains-btn.jpg" alt="om mig 4" />
-            <div class="text-in-img"><strong>Denize S</strong></div>
+          <div class="start-container-img">
+            <img class="start-img-btn" src="mountains-btn.jpg" alt="om mig 4" />
+            <div class="start-text-in-img"><strong>Denize S</strong></div>
           </div>
         </div>
       </div>
     </div>
 
-    <!---------------------------------------->
 
-    <div class="bottom-container">
+
+    <div class="start-bottom-container">
       <hr />
-      <div class="contact-me">
-        <a href="kontakt.html">Kontakta oss</a> <br />
+      <div class="start-contact-me">
+        <a href="kontakt.html">Contact us</a> <br />
         <p>Copyright © 2021 Kollektivet</p>
       </div>
     </div>
   </body>
 </html>
+
 
