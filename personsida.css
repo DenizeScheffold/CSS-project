@@ -148,6 +148,9 @@ body
     font-weight: 300;
 }
 
+.contactInfo.language {
+    color: rgb(255, 255, 255);
+}
 .contactInfo.language .percent
 {
     position: relative; 
