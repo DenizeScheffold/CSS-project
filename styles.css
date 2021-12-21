@@ -12,18 +12,18 @@ body {
 /****************CLASS SELECTORS***********************/
 
 .container {
+  border-radius: 10px;
   justify-content: center;
-  text-align: center;
   margin-bottom: 100px;
-  border-radius: 10%;
+  text-align: center;
 }
 
-.container-img {
-  border-color: #2b5e7c;
+.welcome-container-img {
+  border-color: rgb(255, 255, 255);
   border-style: solid;
-  position: relative;
   display: inline-block;
   margin-top: 100px;
+  position: relative;
 }
 
 .heading {
@@ -32,44 +32,53 @@ body {
   margin: 5% auto;
 }
 
-.img-btn {
-  width: 170px;
-  height: 170px;
+.welcome-img-btn {
   border-radius: 10px;
+  height: 170px;
   margin: 50px;
   opacity: 0.9;
+  width: 170px;
 }
 
-.img-btn:hover {
+.welcome-img-btn:hover {
   opacity: 1;
 }
 
-.text-in-img {
-  position: absolute;
-  z-index: 999;
+.welcome-text-in-img {
+  color: rgb(255, 255, 255);
+  font-size: 180%;
   margin: 0 auto;
   left: 0;
+  position: absolute;
   right: 0;
-  font-size: 180%;
-  color: rgb(255, 255, 255);
   top: 40%;
   text-align: center;
   width: 60%;
+  z-index: 999;
 }
 
-.text-in-img:hover {
+.welcome-text-in-img:hover {
   color: rgb(255, 255, 255);
 }
 
 .container-welcome {
+  color: rgb(255, 255, 255);
   margin-top: 30px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.textcenter {
-  text-align: center;
-}
+
+
+.a{
+  color:  rgb(255, 255, 255);
+  text-decoration-line: none;
+  transition: 0.5s;
+  }
+  
+  .a:hover{
+  color: #ffffff;
+  }
 
 h2 {
   color: rgb(255, 255, 255);
@@ -211,9 +220,9 @@ h2 {
 
 /*****FOOTER*********/
 
-.bottom-container {
+.start-bottom-container {
   text-align: center;
-  color: #2b5e7c;
+  color: rgb(255, 255, 255);
 }
 
 #contact-me{
@@ -223,8 +232,6 @@ h2 {
 hr {
   color: rgb(255, 255, 255);
 }
-
-
 
 /***************SLIDESHOW PORTFOLIE******************/
 
@@ -386,51 +393,3 @@ hr {
     margin-top: 420px;
   }
 }
-/*******************************************/
-
-/*.welcome{
-   width: 600px;
-  height: 100px; */
-/* margin: 0 auto; }*/
-
-/***********
-ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(243, 224, 224);
-  justify-content: center;
-}
-
-li a {
-  display: inline-block;
-  color: blue;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: indigo;
-  transition: 1s;
-  color: lavender;
-}
-
-.img1 {
-  width: 40%;
-}
-.active {
-  color: black;
-  font-weight: bold;
-  margin-top: -5px;
-}
-
-#logo {
-  margin-top: 10px;
-  margin-left: 20px;
-  position: absolute;
-}
-
-********************/
