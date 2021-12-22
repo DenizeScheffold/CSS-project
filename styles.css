@@ -7,7 +7,7 @@ body{
   background: url(mountains-4356017.jpg);
   background-size: auto;
   background-position: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Poppins', sans-serif;
 }
 /* 
 body {
@@ -27,7 +27,7 @@ body {
   justify-content: center;
   margin-bottom: 100px;
   text-align: center;
-  padding: 50px;
+  padding: 30px;
 }
 
 .heading {
