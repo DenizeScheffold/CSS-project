@@ -7,7 +7,7 @@ body{
   background: url(mountains-4356017.jpg);
   background-size: auto;
   background-position: center;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*
 body {
@@ -27,7 +27,8 @@ body {
   justify-content: center;
   margin-bottom: 100px;
   text-align: center;
-  padding: 30px;
+  padding-left: 130px;
+  padding-right: 130px;
 }
 
 .heading {
