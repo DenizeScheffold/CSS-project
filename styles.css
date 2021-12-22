@@ -9,7 +9,7 @@ body{
   background-position: center;
   font-family: 'Poppins', sans-serif;
 }
-/* 
+/*
 body {
   background-image: url("mountains-4356017.jpg");
   font-family: Helvetica, Arial, sans-serif;
@@ -163,12 +163,12 @@ h2 {
 .label {
 border: 1px solid #ccc;
 }
-/* .body{
+.body{
 background: url(mountains-4356017.jpg);
 background-size: auto;
 background-position: center;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-} */
+} 
 textarea {
 resize: none;
 }
