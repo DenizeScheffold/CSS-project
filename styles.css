@@ -1,3 +1,83 @@
+/* Innehåll */
+.textcenter{
+  text-align: center;
+}
+.label {
+border: 1px solid #ccc;
+}
+.body{
+background: url(mountains-4356017.jpg);
+background-size: auto;
+background-position: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+textarea {
+resize: none;
+}
+.form-submit-button {
+background:#2b5e7c;
+border-radius:10%;
+color:#fff;
+text-shadow:none;
+opacity: 0.6;
+width: 75px;
+}
+.form-submit-button:hover {
+background:#0087b1;
+border-radius:10%;
+color:#fff;
+text-shadow:none;
+opacity: 0.7;
+}
+h1 {
+color: white;
+text-shadow: 2px 2px 4px #000000;
+}
+hr {
+border-top: 4px solid #1b1b1b;
+}
+a {
+transition: 0.5s;
+}
+.centered {
+position: fixed;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.right{
+text-align: right;
+}
+
+.bigfont{
+font-size:larger
+}
+
+.left{
+text-align: left;
+}
+.active{
+font-weight: bolder;
+}
+.temp123{
+text-align:center;
+margin-left: 300px;
+margin-right: 300px;
+}
+.temp123 > input{
+text-align:left;
+}
+.margins{
+margin-top: 6%;
+margin-bottom: 5%;
+}
+
+
+
+
+
+
 /*********************TAG selectors********************/
 
 body {
