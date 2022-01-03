@@ -9,15 +9,7 @@ body{
   background-position: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-/*
-body {
-  background-image: url("mountains-4356017.jpg");
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.6em;
-  background-size: cover;
 
-} */
 
 
 /****************CLASS SELECTORS***********************/
@@ -29,6 +21,13 @@ body {
   text-align: center;
   padding-left: 130px;
   padding-right: 130px;
+}
+.container {
+  border-radius: 10px;
+  justify-content: center;
+  margin-bottom: 100px;
+  text-align: center;
+
 }
 
 .heading {
